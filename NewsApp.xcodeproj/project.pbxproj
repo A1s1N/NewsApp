@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B319EF902A312B9100EF34E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B319EF8F2A312B9100EF34E7 /* LaunchScreen.storyboard */; };
 		B38D40A12A2FC67D00BED257 /* NewsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38D40A02A2FC67D00BED257 /* NewsAppApp.swift */; };
 		B38D40A32A2FC67D00BED257 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38D40A22A2FC67D00BED257 /* ContentView.swift */; };
 		B38D40A52A2FC67E00BED257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B38D40A42A2FC67E00BED257 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B319EF8F2A312B9100EF34E7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B38D409D2A2FC67D00BED257 /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38D40A02A2FC67D00BED257 /* NewsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppApp.swift; sourceTree = "<group>"; };
 		B38D40A22A2FC67D00BED257 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				B38D40C62A30EB1C00BED257 /* Info.plist */,
 				B38D40C32A30C0A200BED257 /* Model */,
 				B38D40A02A2FC67D00BED257 /* NewsAppApp.swift */,
+				B319EF8F2A312B9100EF34E7 /* LaunchScreen.storyboard */,
 				B38D40A22A2FC67D00BED257 /* ContentView.swift */,
 				B38D40C42A30C48600BED257 /* DetailView.swift */,
 				B38D40C12A30842500BED257 /* NetworkService.swift */,
@@ -158,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B319EF902A312B9100EF34E7 /* LaunchScreen.storyboard in Resources */,
 				B38D40A82A2FC67E00BED257 /* Preview Assets.xcassets in Resources */,
 				B38D40A52A2FC67E00BED257 /* Assets.xcassets in Resources */,
 			);

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LjJ-mB-Uya">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="9Oj-dW-A5r">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" id="LjJ-mB-Uya" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vxg-He-EiC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" image="launchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="5xo-F3-Hx4">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fBk-Fm-Ed7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5xo-F3-Hx4" firstAttribute="top" secondItem="vxg-He-EiC" secondAttribute="top" id="03V-m4-fby"/>
+                            <constraint firstItem="5xo-F3-Hx4" firstAttribute="trailing" secondItem="fBk-Fm-Ed7" secondAttribute="trailing" id="6fP-Q9-0pP"/>
+                            <constraint firstItem="5xo-F3-Hx4" firstAttribute="centerY" secondItem="vxg-He-EiC" secondAttribute="centerY" id="8Bo-vu-zmK"/>
+                            <constraint firstItem="5xo-F3-Hx4" firstAttribute="leading" secondItem="fBk-Fm-Ed7" secondAttribute="leading" id="JGA-jd-uu0"/>
+                            <constraint firstItem="5xo-F3-Hx4" firstAttribute="centerX" secondItem="vxg-He-EiC" secondAttribute="centerX" id="UQr-kk-yeq"/>
+                            <constraint firstAttribute="bottom" secondItem="5xo-F3-Hx4" secondAttribute="bottom" id="bfj-x7-d4f"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y0n-S8-vkR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-61.832061068702288" y="392.95774647887328"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launchScreen" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
